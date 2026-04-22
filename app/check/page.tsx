@@ -2,9 +2,9 @@ import { Suspense } from "react";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-const productDelay = 4000;
-const reviewsDelay = 5000;
-const recommendationsDelay = 6000;
+const productDelay = 1000;
+const reviewsDelay = 2000;
+const recommendationsDelay = 3000;
 
 function Navbar() {
   return <header>Navbar</header>;
