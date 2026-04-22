@@ -1,5 +1,7 @@
 import { Suspense } from "react";
 
+export const dynamic = "force-dynamic";
+
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 const productDelay = 1000;
