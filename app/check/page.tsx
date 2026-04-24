@@ -34,6 +34,10 @@ async function Recommendations() {
 export default function Page() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center gap-3 text-center">
+      <div>
+        hello
+        <template id="B:0">hello testing</template>
+      </div>
       <Navbar />
 
       <Suspense fallback={<div>loading..</div>}>

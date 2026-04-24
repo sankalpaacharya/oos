@@ -1,9 +1,14 @@
 import { Suspense } from "react";
 
+
+const dynamic = 'force-dynamic'
+
 const wait = (ms: number) =>
   new Promise<void>((resolve) => {
     setTimeout(resolve, ms);
   });
+
+
 
 type HeroData = {
   title: string;
